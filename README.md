@@ -2,7 +2,7 @@
 
 Welcome to the AI Assignment Grader! This Python tool automatically grades student assignments from PDF files, comparing answers to ideal responses using AI. It checks for key concepts, language (English only), and clarity, saving teachers time while providing fair, detailed feedback. Perfect for programming quizzes!
 
-**✨ What It Does **
+✨ What It Does 
 
 Reads questions and answers from a PDF (e.g., demo3.pdf).
 Scores answers out of 10 based on:
@@ -16,7 +16,7 @@ Generates a grading_report.json with scores and feedback (e.g., "Missing key con
 Learns to improve scoring using a training file (trainer3.json).
 
 
-**🛠️ Requirements **
+🛠️ Requirements 
 
 Operating System: Windows
 Python: Version 3.12
