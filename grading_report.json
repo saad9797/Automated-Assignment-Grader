@@ -1,0 +1,37 @@
+{
+  "assignment_id": "1dab4f4c-bfc6-4452-b865-8b018d6bd6cd",
+  "total_points": 20.0,
+  "earned_points": 14.12,
+  "questions": [
+    {
+      "id": "Q1",
+      "question": "What is Python?",
+      "student_answer": "Python is a versatile, high-level programming language widely used in various domains\nsuch as web development, data science, artificial intelligence, and automation. It was\ncreated by Guido van Rossum and released in 1991. Python is known for its simple syntax,\nwhich makes it easy to read and write, even for beginners. It supports multiple programming\nparadigms, including object-oriented and functional programming. Python has a large\nstandard library and a vibrant community that contributes to thousands of third-party\npackages available via PyPI. Developers use Python for tasks like scripting, machine\nlearning, and building web applications with frameworks like Django and Flask.",
+      "sample_answer": "Python is a high-level, versatile programming language used for web development, data science, and automation, known for its readable syntax and extensive libraries.",
+      "parameters": "accuracy:0.7,clarity:0.3,leniency:very lenient",
+      "keywords": [
+        "Python",
+        "programming",
+        "syntax"
+      ],
+      "missing_keywords": [],
+      "points_earned": 9.399999999999999,
+      "points_possible": 10.0
+    },
+    {
+      "id": "Q2",
+      "question": "What is a loop in programming?",
+      "student_answer": "In programming, a loop is a fundamental control structure that allows a program to\nrepeat a specific block of code multiple times until a certain condition is satisfied. Loops are\nessential for automating repetitive tasks, such as processing lists or performing calculations.\nThere are different types of loops, such as for loops, which iterate over a sequence, and\nwhile loops, which continue as long as a condition remains true. For example, in Python, a\nfor loop might be used to print numbers from 1 to 10, while a while loop could repeat until a\nuser enters a specific input. Loops help make code efficient and are a key concept in most\nprogramming languages.",
+      "sample_answer": "A loop is a programming construct that repeats a block of code until a condition is met, used for tasks like iterating over data or automating processes.",
+      "parameters": "completeness:0.5,similarity:0.5,leniency:lenient",
+      "keywords": [
+        "loop",
+        "repeat",
+        "condition"
+      ],
+      "missing_keywords": [],
+      "points_earned": 4.7158722400665285,
+      "points_possible": 10.0
+    }
+  ]
+}
