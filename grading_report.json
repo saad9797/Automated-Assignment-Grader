@@ -1,66 +1,138 @@
 {
-  "assignment_id": "a129c791-e767-4970-ab07-3c3e33f49e11",
-  "total_points": 20.0,
-  "earned_points": 11.3,
+  "assignment_id": "87f8a0ba-c808-4667-8bcd-21d09c333cbc",
+  "total_points": 50.0,
+  "earned_points": 21.85,
   "questions": [
     {
       "id": "Q1",
-      "question": "What is Python?",
-      "student_answer": "Python is a versatile, high-level programming language widely used in various domains\nsuch as web development, data science, artificial intelligence, and automation. It was\ncreated by Guido van Rossum and released in 1991. Python is known for its simple syntax,\nwhich makes it easy to read and write, even for beginners. It supports multiple programming\nparadigms, including object-oriented and functional programming. Python has a large\nstandard library and a vibrant community that contributes to thousands of third-party\npackages available via PyPI. Developers use Python for tasks like scripting, machine\nlearning, and building web applications with frameworks like Django and Flask.",
+      "question": "What is polymorphism in object-oriented programming?",
+      "student_answer": "Polymorphism is like a chameleon changing colors in nature. It adapts to environments\nbut doesn\u2019t clearly relate to coding. I think it\u2019s about flexibility, but I\u2019m unsure how it works in\nprograms or what it does.",
       "sample_answers": [
-        "Python is a high-level, versatile programming language used for web development, data science, and automation, known for its readable syntax and extensive libraries.",
-        "Python is a widely-used programming language known for its simplicity and applications in AI and web development."
+        "Polymorphism allows objects of different classes to be treated as objects of a common superclass, using shared methods.",
+        "Polymorphism in OOP enables method overriding or interfaces for flexible code."
       ],
-      "parameters": "accuracy:0.7,clarity:0.3,leniency:very lenient",
+      "parameters": "similarity:0.7,completeness:0.3,leniency:not lenient",
       "keywords": [
-        "Python",
-        "programming",
-        "syntax"
+        "polymorphism",
+        "method",
+        "interface"
       ],
-      "missing_keywords": [],
-      "points_earned": 9.712504589052362,
+      "missing_keywords": [
+        "method",
+        "interface"
+      ],
+      "points_earned": 6.658148258587051,
       "points_possible": 10.0,
-      "feedback": "Good use of relevant named entities.",
+      "feedback": "Missing key concepts: method, interface.. Good use of relevant named entities.",
       "named_entities": [
-        "Python",
-        "Guido",
-        "Rossum",
-        "Python",
-        "Python",
-        "PyPI",
-        "Python",
-        "Django",
-        "Flask"
+        "Polymorphism"
       ]
     },
     {
       "id": "Q2",
-      "question": "What is a loop in programming?",
-      "student_answer": "\"\"Gello\" in Greek mythology refers to a female demon or revenant who is associated\nwith the reproductive cycle and can cause infertility, miscarriages, and infant mortality. By the\nByzantine era, \"gelloudes\" were a class of such beings. The term also appears in other\ncontexts, such as a low-cost teleoperation framework for robot manipulators. Additionally,\n\"Gello\" can refer to a WordPress theme, a song, and a cannabis strain, according to Apple\nMusic, ThemeForest, and Harborside respectively.",
+      "question": "Explain exception handling in programming?",
+      "student_answer": "Un manejo de excepciones es un mecanismo en Python para controlar errores. Por\nejemplo, try y except capturan problemas como divisiones por cero, evitando que el\nprograma falle.",
       "sample_answers": [
-        "A loop is a programming construct that repeats a block of code until a condition is met, used for tasks like iterating over data or automating processes.",
-        "A loop allows code to be executed repeatedly based on a condition."
+        "Exception handling uses try-except blocks to catch and manage errors, preventing program crashes.",
+        "Exception handling in programming handles runtime errors with constructs like try, except, finally."
       ],
-      "parameters": "completeness:0.5,similarity:0.5,leniency:not lenient",
+      "parameters": "accuracy:0.8,clarity:0.2,leniency:not lenient",
       "keywords": [
-        "loop",
-        "repeat",
-        "condition"
+        "exception",
+        "try",
+        "except"
       ],
       "missing_keywords": [
-        "loop",
-        "repeat"
+        "exception"
       ],
-      "points_earned": 1.5848108518094395,
+      "points_earned": 0.4149283262134308,
       "points_possible": 10.0,
-      "feedback": "Answer is less detailed than expected.. Missing key concepts: loop, repeat.",
+      "feedback": "Answer lacks accuracy compared to sample answers.. Missing key concepts: exception.. Answer is not in English, which is required.",
       "named_entities": [
-        "Greek",
-        "Byzantine",
-        "WordPress",
-        "Apple Music",
-        "ThemeForest",
-        "Harborside"
+        "Un",
+        "Python",
+        "Por"
+      ]
+    },
+    {
+      "id": "Q3",
+      "question": "What is a module in programming?",
+      "student_answer": "A module is like a chapter in a book, organizing ideas. In life, it\u2019s a unit of thought. I\u2019m\nnot sure how it applies to code, but it sounds like grouping stuff.",
+      "sample_answers": [
+        "A module is a file containing Python code, like functions or classes, imported to reuse code.",
+        "Modules organize code into separate files, accessible via import statements."
+      ],
+      "parameters": "completeness:0.5,similarity:0.5,leniency:lenient",
+      "keywords": [
+        "module",
+        "import",
+        "file"
+      ],
+      "missing_keywords": [
+        "import",
+        "file"
+      ],
+      "points_earned": 7.330076296225315,
+      "points_possible": 10.0,
+      "feedback": "Missing key concepts: import, file.",
+      "named_entities": []
+    },
+    {
+      "id": "Q4",
+      "question": "Describe data types in programming?",
+      "student_answer": "Data types are categories, like sorting laundry into colors and whites. You separate\nthings to manage them better, but I don\u2019t know how this works in programming specifically.",
+      "sample_answers": [
+        "Data types define the kind of data a variable can hold, like integers, strings, or floats.",
+        "Programming data types, such as boolean or list, specify value categories."
+      ],
+      "parameters": "accuracy:0.6,clarity:0.4,leniency:not lenient",
+      "keywords": [
+        "data type",
+        "integer",
+        "string"
+      ],
+      "missing_keywords": [
+        "integer",
+        "string"
+      ],
+      "points_earned": 6.73670604989605,
+      "points_possible": 10.0,
+      "feedback": "Missing key concepts: integer, string.",
+      "named_entities": [
+        "Data"
+      ]
+    },
+    {
+      "id": "Q5",
+      "question": "What is an algorithm in programming?",
+      "student_answer": "Ein Algorithmus ist eine Reihe von Schritten zur L\u00f6sung eines Problems, wie eine\nRezeptanleitung. In Python, man verwendet sie f\u00fcr Aufgaben wie Sortieren oder Suchen.",
+      "sample_answers": [
+        "An algorithm is a step-by-step procedure to solve a problem, like sorting or searching in code.",
+        "Algorithms are efficient methods to perform tasks, implemented in programming."
+      ],
+      "parameters": "similarity:0.7,completeness:0.3,leniency:very lenient",
+      "keywords": [
+        "algorithm",
+        "step",
+        "solution"
+      ],
+      "missing_keywords": [
+        "step",
+        "solution"
+      ],
+      "points_earned": 0.711218117219701,
+      "points_possible": 10.0,
+      "feedback": "Missing key concepts: step, solution.. Answer is not in English, which is required.",
+      "named_entities": [
+        "Ein",
+        "Algorithmus",
+        "Reihe",
+        "Problems",
+        "Rezeptanleitung",
+        "Python",
+        "Aufgaben",
+        "Sortieren",
+        "Suchen"
       ]
     }
   ]

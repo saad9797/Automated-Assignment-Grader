@@ -1,0 +1,47 @@
+[
+    {
+        "question_text": "What is polymorphism in object-oriented programming?",
+        "student_answer": "Polymorphism lets different classes share methods via a common interface, like in Python.",
+        "sample_answers": [
+            "Polymorphism allows method overriding for objects of different classes.",
+            "Polymorphism enables flexible code through shared interfaces."
+        ],
+        "expected_score": 0.90
+    },
+    {
+        "question_text": "Explain exception handling in programming.",
+        "student_answer": "Exception handling uses try-except to manage errors, like catching division by zero.",
+        "sample_answers": [
+            "Exception handling catches errors with try-except blocks.",
+            "Try, except, finally handle runtime errors in code."
+        ],
+        "expected_score": 0.85
+    },
+    {
+        "question_text": "What is a module in programming?",
+        "student_answer": "A module is a Python file with code, imported to reuse functions or classes.",
+        "sample_answers": [
+            "Modules are files with reusable Python code.",
+            "Importable files organizing code are modules."
+        ],
+        "expected_score": 0.90
+    },
+    {
+        "question_text": "Describe data types in programming.",
+        "student_answer": "Data types like integer, string, and float define what a variable can store.",
+        "sample_answers": [
+            "Data types categorize variables, like boolean or list.",
+            "Integers, strings, and floats are common data types."
+        ],
+        "expected_score": 0.95
+    },
+    {
+        "question_text": "What is an algorithm in programming?",
+        "student_answer": "An algorithm is a sequence of steps to solve a problem, like sorting data.",
+        "sample_answers": [
+            "Algorithms are procedures for solving programming tasks.",
+            "Step-by-step solutions in code are algorithms."
+        ],
+        "expected_score": 0.90
+    }
+]

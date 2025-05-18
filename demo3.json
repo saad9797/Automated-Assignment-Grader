@@ -1,0 +1,39 @@
+{
+    "parameters": {
+        "Q1": "similarity:0.7,completeness:0.3,leniency:not lenient",
+        "Q2": "accuracy:0.8,clarity:0.2,leniency:not lenient",
+        "Q3": "completeness:0.5,similarity:0.5,leniency:lenient",
+        "Q4": "accuracy:0.6,clarity:0.4,leniency:not lenient",
+        "Q5": "similarity:0.7,completeness:0.3,leniency:very lenient"
+    },
+    "sample_answers": {
+        "Q1": [
+            "Polymorphism allows objects of different classes to be treated as objects of a common superclass, using shared methods.",
+            "Polymorphism in OOP enables method overriding or interfaces for flexible code."
+        ],
+        "Q2": [
+            "Exception handling uses try-except blocks to catch and manage errors, preventing program crashes.",
+            "Exception handling in programming handles runtime errors with constructs like try, except, finally."
+        ],
+        "Q3": [
+            "A module is a file containing Python code, like functions or classes, imported to reuse code.",
+            "Modules organize code into separate files, accessible via import statements."
+        ],
+        "Q4": [
+            "Data types define the kind of data a variable can hold, like integers, strings, or floats.",
+            "Programming data types, such as boolean or list, specify value categories."
+        ],
+        "Q5": [
+            "An algorithm is a step-by-step procedure to solve a problem, like sorting or searching in code.",
+            "Algorithms are efficient methods to perform tasks, implemented in programming."
+        ]
+    },
+    "keywords": {
+        "Q1": {"polymorphism": 2.0, "method": 1.0, "interface": 0.5},
+        "Q2": {"exception": 2.0, "try": 1.0, "except": 0.5},
+        "Q3": {"module": 2.0, "import": 1.0, "file": 0.5},
+        "Q4": {"data type": 2.0, "integer": 1.0, "string": 0.5},
+        "Q5": {"algorithm": 2.0, "step": 1.0, "solution": 0.5}
+    },
+    "total_points": 50.0
+}

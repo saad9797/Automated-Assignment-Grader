@@ -1,0 +1,38 @@
+[
+    {
+        "question_text": "What is a variable in programming?",
+        "student_answer": "A variable is a name that holds a value in a program, like `x = 10`.",
+        "sample_answers": [
+            "A variable is a named location in memory used to store data that can be modified.",
+            "Variables hold values that can change, like `x = 10` in Python."
+        ],
+        "expected_score": 0.95
+    },
+    {
+        "question_text": "Explain what a function is in programming.",
+        "student_answer": "A function is a piece of code that does something when you call it.",
+        "sample_answers": [
+            "A function is a reusable block of code that performs a task, often with parameters.",
+            "Functions are defined to execute code when called."
+        ],
+        "expected_score": 0.80
+    },
+    {
+        "question_text": "What is a loop in programming?",
+        "student_answer": "A loop runs code multiple times until a condition is false.",
+        "sample_answers": [
+            "A loop is a construct that repeats code until a condition is met.",
+            "Loops execute code repeatedly based on a condition."
+        ],
+        "expected_score": 0.90
+    },
+    {
+        "question_text": "Describe what an array is in programming.",
+        "student_answer": "An array is a list of items stored together, like numbers or strings.",
+        "sample_answers": [
+            "An array is a data structure that stores elements of the same type in contiguous memory.",
+            "Arrays hold multiple values, accessible by index."
+        ],
+        "expected_score": 0.85
+    }
+]

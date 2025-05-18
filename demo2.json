@@ -1,0 +1,21 @@
+{
+    "parameters": {
+        "Q1": "accuracy:0.6,clarity:0.4,leniency:lenient",
+        "Q2": "completeness:0.5,similarity:0.5,leniency:very lenient"
+    },
+    "sample_answers": {
+        "Q1": [
+            "A class is a template in object-oriented programming that defines attributes and methods for objects.",
+            "Classes are blueprints for objects, like `class Dog:` in Python, with properties and behaviors."
+        ],
+        "Q2": [
+            "Conditional statements, like `if`, `else`, execute code based on conditions, controlling program flow.",
+            "Conditionals in programming, such as `if x > 0:`, make decisions based on true/false conditions."
+        ]
+    },
+    "keywords": {
+        "Q1": {"class": 2.0, "object": 1.0, "method": 0.5},
+        "Q2": {"conditional": 2.0, "if": 1.0, "else": 0.5}
+    },
+    "total_points": 20.0
+}

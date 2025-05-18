@@ -1,0 +1,33 @@
+{
+    "parameters": {
+        "Q1": "accuracy:0.6,clarity:0.4,leniency:lenient",
+        "Q2": "completeness:0.5,similarity:0.5,leniency:not lenient",
+        "Q3": "similarity:0.7,completeness:0.3,leniency:not lenient",
+        "Q4": "accuracy:0.8,clarity:0.2,leniency:very lenient"
+    },
+    "sample_answers": {
+        "Q1": [
+            "A variable is a named location in memory used to store data that can be modified during program execution.",
+            "Variables hold values that can change, like `x = 10` in Python."
+        ],
+        "Q2": [
+            "A function is a reusable block of code that performs a specific task, often accepting parameters and returning a value.",
+            "Functions are like tools in programming, defined to execute code when called."
+        ],
+        "Q3": [
+            "A loop is a programming construct that repeats a block of code until a condition is met, like a `for` or `while` loop.",
+            "Loops allow code to run multiple times based on a condition."
+        ],
+        "Q4": [
+            "An array is a data structure that stores a collection of elements of the same type in contiguous memory.",
+            "Arrays hold multiple values in a single variable, accessible by index."
+        ]
+    },
+    "keywords": {
+        "Q1": {"variable": 2.0, "value": 1.0, "store": 0.5},
+        "Q2": {"function": 2.0, "parameter": 1.0, "return": 1.0},
+        "Q3": {"loop": 2.0, "repeat": 1.0, "condition": 1.0},
+        "Q4": {"array": 2.0, "element": 1.0, "index": 0.5}
+    },
+    "total_points": 40.0
+}

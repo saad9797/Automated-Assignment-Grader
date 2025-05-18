@@ -424,32 +424,32 @@ def load_trainer_data(trainer_path: str) -> List[Tuple[str, str, List[str], floa
         return training_data
     except Exception as e:
         logger.warning(f"Failed to load trainer.json: {e}. Using minimal default training data.")
-        return [
-            (
-                "What is Python?",
-                "Python is a popular programming language used in AI and web development.",
-                [
-                    "Python is a high-level, versatile programming language used for web development, data science, and automation.",
-                    "Python is a widely-used programming language known for its simplicity and applications in AI."
-                ],
-                0.95
-            ),
-            (
-                "Explain what a loop is in programming.",
-                "A loop repeats code while a condition is true.",
-                [
-                    "A loop is a programming construct that repeats a block of code until a condition is met.",
-                    "A loop allows code to be executed repeatedly based on a condition."
-                ],
-                0.90
-            )
-        ]
+        # return [
+        #     (
+        #         "What is Python?",
+        #         "Python is a popular programming language used in AI and web development.",
+        #         [
+        #             "Python is a high-level, versatile programming language used for web development, data science, and automation.",
+        #             "Python is a widely-used programming language known for its simplicity and applications in AI."
+        #         ],
+        #         0.95
+        #     ),
+        #     (
+        #         "Explain what a loop is in programming.",
+        #         "A loop repeats code while a condition is true.",
+        #         [
+        #             "A loop is a programming construct that repeats a block of code until a condition is met.",
+        #             "A loop allows code to be executed repeatedly based on a condition."
+        #         ],
+        #         0.90
+        #     )
+        # ]
 
 if __name__ == "__main__":
     start_time = time.time()
-    pdf_path = "test2.pdf"
-    config_path = "grader_config.json"
-    trainer_path = "trainer.json"
+    pdf_path = "demo3.pdf"
+    config_path = "demo3.json"
+    trainer_path = "trainer3.json"
     parameters, sample_answers, keywords, total_points = load_config(config_path)
     grader = OptimizedAssignmentGrader(pdf_path, parameters, sample_answers, keywords, total_points)
 

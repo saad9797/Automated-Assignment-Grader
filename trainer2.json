@@ -1,0 +1,20 @@
+[
+    {
+        "question_text": "What is a class in object-oriented programming?",
+        "student_answer": "A class is a blueprint for objects, defining attributes and methods, like `class Cat:`.",
+        "sample_answers": [
+            "A class is a template for objects with properties and methods.",
+            "Classes define object behaviors, e.g., `class Dog:` in Python."
+        ],
+        "expected_score": 0.90
+    },
+    {
+        "question_text": "Explain conditional statements in programming.",
+        "student_answer": "Conditionals, like `if` and `else`, run code based on conditions, e.g., `if x > 5:`.",
+        "sample_answers": [
+            "Conditional statements execute code if conditions are true, like `if` statements.",
+            "Conditionals control flow with `if`, `else`, based on conditions."
+        ],
+        "expected_score": 0.95
+    }
+]
