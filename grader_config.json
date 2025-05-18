@@ -1,0 +1,21 @@
+{
+    "parameters": {
+        "Q1": "accuracy:0.7,clarity:0.3,leniency:very lenient",
+        "Q2": "completeness:0.5,similarity:0.5,leniency:not lenient"
+    },
+    "sample_answers": {
+        "Q1": [
+            "Python is a high-level, versatile programming language used for web development, data science, and automation, known for its readable syntax and extensive libraries.",
+            "Python is a widely-used programming language known for its simplicity and applications in AI and web development."
+        ],
+        "Q2": [
+            "A loop is a programming construct that repeats a block of code until a condition is met, used for tasks like iterating over data or automating processes.",
+            "A loop allows code to be executed repeatedly based on a condition."
+        ]
+    },
+    "keywords": {
+        "Q1": {"Python": 2.0, "programming": 1.0, "syntax": 0.5},
+        "Q2": {"loop": 2.0, "repeat": 1.0, "condition": 1.0}
+    },
+    "total_points": 20.0
+}
