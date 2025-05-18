@@ -197,3 +197,9 @@ Customization: Edit demo3.json to add questions, keywords, or change scoring rul
 Help: If stuck, check logs in Command Prompt or share grading_report.json.
 
 Happy grading! This tool makes marking assignments fast and fair. Run it and check the results in grading_report.json! 🎉
+
+
+
+**Youtube Explanation Link**
+
+https://www.youtube.com/watch?v=9PxVYYeCmQ0
