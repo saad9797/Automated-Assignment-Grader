@@ -1,6 +1,7 @@
-AI Assignment Grader
+📚 AI Assignment Grader
 Welcome to the AI Assignment Grader! This Python tool automatically grades student assignments from PDF files, comparing answers to ideal responses using AI. It checks for key concepts, language (English only), and clarity, saving teachers time while providing fair, detailed feedback. Perfect for programming quizzes!
-What It Does
+
+✨ What It Does
 
 Reads questions and answers from a PDF (e.g., demo3.pdf).
 Scores answers out of 10 based on:
@@ -13,7 +14,8 @@ Grammar and detail.
 Generates a grading_report.json with scores and feedback (e.g., "Missing key concepts: method").
 Learns to improve scoring using a training file (trainer3.json).
 
-Requirements
+
+🛠️ Requirements
 
 Operating System: Windows
 Python: Version 3.12
@@ -32,7 +34,8 @@ trainer3.json: Training data for scoring.
 
 
 
-Setup
+
+🚀 Setup
 
 Install Python 3.12:
 
@@ -67,7 +70,8 @@ trainer3.json (training data).
 
 
 
-How to Run
+
+▶️ How to Run
 
 Open Command Prompt:
 
@@ -101,7 +105,8 @@ missing_keywords: Keywords not found in the answer.
 
 
 
-Example Files
+
+📝 Example Files
 
 demo3.pdf:
 Q1: What is polymorphism in programming?
@@ -134,7 +139,8 @@ trainer3.json:
 
 
 
-Troubleshooting
+
+🛡️ Troubleshooting
 
 Error: "PDF extraction failed":
 
@@ -181,10 +187,11 @@ Rerun the grader.
 
 
 
-Notes
+
+📌 Notes
 
 Output: grading_report.json shows scores and feedback for each question.
 Customization: Edit demo3.json to add questions, keywords, or change scoring rules.
 Help: If stuck, check logs in Command Prompt or share grading_report.json.
 
-Happy grading! This tool makes marking assignments fast Run it and check the results in grading_report.json!
+Happy grading! This tool makes marking assignments fast and fair. Run it and check the results in grading_report.json! 🎉
