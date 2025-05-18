@@ -1,7 +1,8 @@
-📚 AI Assignment Grader
+##📚 AI Assignment Grader
+
 Welcome to the AI Assignment Grader! This Python tool automatically grades student assignments from PDF files, comparing answers to ideal responses using AI. It checks for key concepts, language (English only), and clarity, saving teachers time while providing fair, detailed feedback. Perfect for programming quizzes!
 
-✨ What It Does
+##✨ What It Does
 
 Reads questions and answers from a PDF (e.g., demo3.pdf).
 Scores answers out of 10 based on:
@@ -15,7 +16,7 @@ Generates a grading_report.json with scores and feedback (e.g., "Missing key con
 Learns to improve scoring using a training file (trainer3.json).
 
 
-🛠️ Requirements
+##🛠️ Requirements
 
 Operating System: Windows
 Python: Version 3.12
@@ -27,7 +28,7 @@ nltk
 langdetect
 
 
-Files:
+##Files:
 demo3.pdf: Assignment PDF with format Q1: Question? Ans: Answer...
 demo3.json: Grading rules (sample answers, keywords).
 trainer3.json: Training data for scoring.
@@ -35,7 +36,7 @@ trainer3.json: Training data for scoring.
 
 
 
-🚀 Setup
+##🚀 Setup
 
 Install Python 3.12:
 
@@ -43,14 +44,14 @@ Download from python.org.
 Ensure pip is installed.
 
 
-Install Libraries:
+##Install Libraries:
 
 Open Command Prompt and run:pip install pdfplumber sentence-transformers numpy nltk langdetect
 
 
 
 
-Download NLTK Resources:
+##Download NLTK Resources:
 
 Run this Python code to download required data:import nltk
 nltk.download(['punkt', 'punkt_tab', 'averaged_perceptron_tagger', 'averaged_perceptron_tagger_eng', 'wordnet', 'omw-1.4', 'maxent_ne_chunker', 'maxent_ne_chunker_tab', 'words'], download_dir='C:\\Users\\saad4\\AppData\\Roaming\\nltk_data')
@@ -58,7 +59,7 @@ nltk.download(['punkt', 'punkt_tab', 'averaged_perceptron_tagger', 'averaged_per
 
 
 
-Prepare Files:
+##Prepare Files:
 
 Place the following in C:\Users\saad4\Desktop\AI Assignment:
 assignment_grader.py (the main script).
@@ -71,7 +72,7 @@ trainer3.json (training data).
 
 
 
-▶️ How to Run
+##▶️ How to Run
 
 Open Command Prompt:
 
@@ -106,7 +107,7 @@ missing_keywords: Keywords not found in the answer.
 
 
 
-📝 Example Files
+##📝 Example Files
 
 demo3.pdf:
 Q1: What is polymorphism in programming?
@@ -140,7 +141,7 @@ trainer3.json:
 
 
 
-🛡️ Troubleshooting
+##🛡️ Troubleshooting
 
 Error: "PDF extraction failed":
 
@@ -188,7 +189,7 @@ Rerun the grader.
 
 
 
-📌 Notes
+##📌 Notes
 
 Output: grading_report.json shows scores and feedback for each question.
 Customization: Edit demo3.json to add questions, keywords, or change scoring rules.
